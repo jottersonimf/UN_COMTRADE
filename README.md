@@ -18,8 +18,7 @@ and represents more than 99% of the world's merchandise trade. [No services data
 Go to the UN COMTRADE website, login using your IMF email. Go to "Profile" and 
 generate or read our Primary and Secondary keys.  Store the keys as environment
 variables (say, using the name "API_KEY_UNCOMTRADE").  Using an IMF email 
-is crucial as it allows access to "Premium Institutional" subscription.  Click on "Products" to see 
-the list of APIs.  
+is crucial as it allows access to "Premium Institutional" subscription.  
 
 ### User accounts and APIs
 
