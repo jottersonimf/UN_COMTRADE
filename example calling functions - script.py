@@ -1,6 +1,5 @@
 # install the cmod.first:
-# py -m pip install comtradeapicall
-# py -m pip install --upgrade comtradeapicall
+# py -m pip install --user comtradeapicall
 # may need to install other dependencies
 import os
 
@@ -27,6 +26,7 @@ mydf = cmod.previewFinalData(subscription_key, typeCode='C', freqCode='M', clCod
                                         partner2Code=None,
                                         customsCode=None, motCode=None, maxRecords=500, format_output='JSON',
                                         aggregateBy=None, breakdownMode='classic', countOnly=None, includeDesc=True)
+
 print(mydf.head(5))
 # The same preview final call but using proxy_url
 mydf = cmod.previewFinalData(subscription_key, typeCode='C', freqCode='M', clCode='HS', period='202205',

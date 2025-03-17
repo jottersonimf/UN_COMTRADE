@@ -1,0 +1,9 @@
+id,text,vesselTypeCode,vesselTypeDesc
+"0","Total","0","Total",
+"1","Bulk","1","Bulk",
+"2","Container/general cargo","2","Container/general cargo",
+"3","Oil/chemicals","3","Oil/chemicals",
+"4","Oil/chemicals bunker/movement","4","Oil/chemicals bunker/movement",
+"5","Vehicles","5","Vehicles",
+"6","LPG/LNG","6","LPG/LNG",
+"7","Foodstuff","7","Foodstuff",
